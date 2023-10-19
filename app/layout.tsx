@@ -20,6 +20,7 @@ export const metadata: Metadata = {
         shortcut: "/favicon-16x16.png",
         apple: "/apple-touch-icon.png",
     },
+    manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -29,7 +30,6 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <head />
             <body
                 className={clsx(
                     "min-h-screen bg-background font-sans antialiased",

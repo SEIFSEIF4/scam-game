@@ -1,7 +1,7 @@
 {
-  "name": "Grocery Cart",
-  "short_name": "Grocery Cart",
-  "description": "Add Your Needs here.",
+  "name": "Scam Game",
+  "short_name": "Scam",
+  "description": "Scam Game to Play with Friends",
   "icons": [
     {
       "src": "@/public/android-chrome-192x192.png",
@@ -19,7 +19,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://grocerycartapp.netlify.app/",
+  "start_url": "http://localhost:3000/",
   "theme_color": "#c0c0c0",
   "background_color": "#c0c0c0",
   "display": "standalone"
