@@ -1,4 +1,4 @@
-import styles from "@/app/about/about.module.css";
+import styles from "@/styles/mock.module.css";
 import Image from "next/image";
 import MockUp from "@/public/assets/MockUp_2u.jpg";
 
@@ -10,7 +10,7 @@ interface MockProps {
 export const Mock = ({ width, height }: MockProps) => {
   return (
     <div className="container flex flex-col justify-between gap-8 mx-auto align-center ">
-      <div className="text">
+      {/* <div className="text">
         <p>
           <span className="text-2xl font-bold text-[#dc2626] ">We</span> are
           here to provide a new and exciting game experience our value is
@@ -18,7 +18,7 @@ export const Mock = ({ width, height }: MockProps) => {
           people and present them an amazing experience that gives them the
           opportunity to enjoy their time in a fresh way.
         </p>
-      </div>
+      </div> */}
 
       <div className={styles.moContainer}>
         {/* <h1 className={title()}>About</h1> */}

@@ -5,6 +5,7 @@ import MaxWidthWrapper from "@/components/maxWidthWrapper";
 import { Button } from "@/components/ui/button";
 import PageAvatar from "@/components/PageAvatar";
 import PageCoverImage from "@/components/PageCoverImage";
+import { Mock } from "@/components/Mock";
 
 export default function Home() {
   return (
@@ -31,12 +32,16 @@ export default function Home() {
               <Link href="/how-to-play">How To Play</Link>
             </Button>
           </div>
-          <PageAvatar
-            src="/assets/home.png"
-            alt="Home Image"
-            width={390}
-            height={472}
-          />
+          {Math.random() >= 0.5 ? (
+            <PageAvatar
+              src="/assets/home.png"
+              alt="Home Image"
+              width={390}
+              height={472}
+            />
+          ) : (
+            <Mock width={4000} height={3200} />
+          )}
         </section>
       </MaxWidthWrapper>
     </>
