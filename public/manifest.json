@@ -1,26 +1,37 @@
 {
-  "name": "Scam Game",
+  "theme_color": "#EA181F",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Scam Cards",
   "short_name": "Scam",
-  "description": "Scam Game to Play with Friends",
+  "description": "Where Strategy Meets Fun!",
   "icons": [
     {
-      "src": "@/public/android-chrome-192x192.png",
+      "src": "/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "@/public/android-chrome-512x512.png",
+      "src": "/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "@/public/apple-touch-icon.png",
-      "sizes": "180x180",
       "type": "image/png"
     }
   ],
-  "start_url": "http://localhost:3000/",
-  "theme_color": "#c0c0c0",
-  "background_color": "#c0c0c0",
-  "display": "standalone"
+  "screenshots": [
+    {
+      "src": "/screen.png",
+      "sizes": "1643x993",
+      "type": "image/gif",
+      "form_factor": "wide",
+      "label": "Scam Cards"
+    },
+    {
+      "src": "/screen.png",
+      "sizes": "1643x993",
+      "type": "image/gif",
+      "label": "Scam Cards"
+    }
+  ]
 }

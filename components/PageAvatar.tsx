@@ -17,14 +17,13 @@ export default function PageAvatar({
   className,
 }: PageAvatarProps) {
   return (
-    <div className="p-5 select-none">
-      <Image
-        className={className}
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-      />
-    </div>
+    <Image
+      className={className}
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      // placeholder="blur"
+    />
   );
 }

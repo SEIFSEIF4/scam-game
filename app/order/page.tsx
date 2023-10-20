@@ -11,20 +11,25 @@ import PageAvatar from "@/components/PageAvatar";
 export default function Order() {
   return (
     <MaxWidthWrapper>
-      <section className="flex flex-col items-center justify-center min-h-screen gap-4 py-8 md:flex-row md:py-10">
-        <PageContent
-          h1Text="order Scam now
+      <section className="flex flex-col items-center justify-between min-h-screen gap-4 py-8 md:flex-row md:py-10">
+        {/* <ThemeSwitch /> */}
+        <div className="text-center">
+          <PageContent
+            h1Text="Order Scam now
           and enjoy the endless fun!"
-        />
+          />
 
-        <Button asChild>
-          <Link href="#">order now</Link>
-        </Button>
+          <Button asChild>
+            <Link href="#" className="text-center">
+              order now
+            </Link>
+          </Button>
+        </div>
 
         <PageAvatar
-          className="fixed bottom-0 left-0 right-0 block mx-auto"
+          className="fixed bottom-0 left-0 right-0  mx-auto select-none "
           src="/assets/order.png"
-          alt="AboutUs Image"
+          alt="Order Image"
           width={343}
           height={388}
         />
@@ -35,7 +40,6 @@ export default function Order() {
             <MoveRight />
           </Link>
         </Button>
-        <ThemeSwitch />
       </section>
     </MaxWidthWrapper>
   );

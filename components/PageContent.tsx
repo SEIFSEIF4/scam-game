@@ -1,4 +1,5 @@
 import React from "react";
+import { QuestionMark } from "./icons";
 
 interface AboutSectionProps {
   h1Text: string;
