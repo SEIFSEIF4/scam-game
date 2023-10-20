@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation"; // Import the useRouter
 
 // Components
 import { Button } from "@/components/ui/button";
@@ -14,6 +13,7 @@ export default function Home() {
     return (
         <MaxWidthWrapper>
             <section className="flex flex-col items-center justify-center min-h-screen gap-4 py-8 md:flex-row md:py-10">
+                <ThemeSwitch />
                 <PageContent
                     h1Text="About Us"
                     pText="A dynamic card game blending strategy and fun. Unique cards, strategic play for endless fun!"
@@ -29,7 +29,6 @@ export default function Home() {
                 <Button className="fixed bottom-5 right-10" asChild>
                     <Link href="/how-to-play">How to Play ➡️</Link>
                 </Button>
-                <ThemeSwitch />
             </section>
         </MaxWidthWrapper>
     );

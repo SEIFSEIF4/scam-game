@@ -48,12 +48,14 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/nextui-org/nextui",
     instagram:
       "https://www.instagram.com/scam.cards/?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw==",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    facebook: "https://www.facebook.com/profile.php?id=61552070085944",
+    discord: "https://discord.gg/V6ntV4Hd",
+
+    // Not Yet !
+    github: "",
+    twitter: "",
+    sponsor: "",
   },
 };

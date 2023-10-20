@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import clsx from "clsx";
+import SideIcons from "@/components/SideIcons";
 
 export const metadata: Metadata = {
     title: {
@@ -41,6 +42,7 @@ export default function RootLayout({
                 >
                     <main className="container flex-grow px-6 mx-auto max-w-7xl">
                         {children}
+                        <SideIcons />
                     </main>
                 </Providers>
             </body>

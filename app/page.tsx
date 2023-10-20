@@ -20,7 +20,7 @@ export default function Home() {
                 </div>
                 <div>
                     <Button className="mx-3" asChild>
-                        <Link href="/about">Order Now</Link>
+                        <Link href="/order">Order Now</Link>
                     </Button>
                     <Button className="mx-3" asChild variant={"secondary"}>
                         <Link href="/how-to-play">How To Play</Link>
