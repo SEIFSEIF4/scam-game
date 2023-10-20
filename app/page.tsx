@@ -7,6 +7,9 @@ import PageAvatar from "@/components/PageAvatar";
 import PageCoverImage from "@/components/PageCoverImage";
 import { Mock } from "@/components/Mock";
 
+const ranBo = Math.random() >= 0.1;
+console.log(ranBo);
+
 export default function Home() {
   return (
     <>
@@ -32,7 +35,7 @@ export default function Home() {
               <Link href="/how-to-play">How To Play</Link>
             </Button>
           </div>
-          {Math.random() >= 0.5 ? (
+          {ranBo ? (
             <PageAvatar
               src="/assets/home.png"
               alt="Home Image"
