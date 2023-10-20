@@ -7,7 +7,7 @@ import PageAvatar from "@/components/PageAvatar";
 import PageCoverImage from "@/components/PageCoverImage";
 import { Mock } from "@/components/Mock";
 
-const ranBo = Math.random() >= 0.1;
+const ranBo = Math.random() >= 0.3;
 console.log(ranBo);
 
 export default function Home() {
