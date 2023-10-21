@@ -13,6 +13,12 @@ export default function PageCoverImage({
   className,
 }: PageAvatarProps) {
   return (
-    <Image className={className} src={src} alt={alt} objectFit="cover" fill />
+    <Image
+      className={className}
+      src={src}
+      alt={alt}
+      fill
+      style={{ objectFit: "cover" }}
+    />
   );
 }

@@ -38,7 +38,7 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "system" }}>
-          <main className="container flex-grow px-6 mx-auto max-w-7xl">
+          <main className="container flex-grow px-6 mx-auto max-w-screen-7xl">
             {children}
             <SideIcons />
           </main>

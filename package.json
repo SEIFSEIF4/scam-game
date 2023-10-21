@@ -33,6 +33,7 @@
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "framer-motion": "^10.16.4",
+    "gsap": "^3.12.2",
     "intl-messageformat": "^10.5.0",
     "lucide-react": "^0.287.0",
     "next": "^13.5.4",

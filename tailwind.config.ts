@@ -13,6 +13,8 @@ module.exports = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        "3xl": "2000px",
+        "7xl": "2500px",
       },
     },
     extend: {
@@ -59,21 +61,37 @@ module.exports = {
       },
       keyframes: {
         "accordion-down": {
-          from: { height: 0 },
+          from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: 0 },
+          to: { height: "10000px" },
+        },
+        "slide-right": {
+          from: { transform: "translateX(-20%)" },
+          to: { transform: "translateX(0)" },
+        },
+        "slide-left": {
+          from: { transform: "translateX(20%)" },
+          to: { transform: "translateX(0%)" },
+        },
+        "fade-In": {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
+        },
+        "fadeIn-Up": {
+          from: { transform: "translate3d(0, 100%, 0)", opacity: 0 },
+          to: { transform: "(none)", opacity: 1 },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-      },
-      backgroundImage: {
-        "bg-mobile": "url('/assets/bg-mobile.png')",
-        "bg-pc": "url('/img/footer-texture.png')",
+        "slide-right": "slide-right 1s ease-in",
+        "slide-left": "slide-left 1s ease-in",
+        "fadeIn-Up": "fadeIn-Up 1s both",
+        "fade-In": "fade-In 1s both",
       },
     },
   },
